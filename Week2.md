@@ -4,7 +4,7 @@
 
 =》成本函数轮廓形成椭圆形或椭圆形：
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001144237135.png" alt="image-20231001144237135" style="zoom: 33%;" />
+<img src="./图片/image-20231001144237135.png" alt="image-20231001144237135" style="zoom: 33%;" />
 
 ##### **特征缩放：**
 
@@ -16,7 +16,7 @@
 
 成本函数更趋圆形
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001160401926.png" alt="image-20231001160401926" style="zoom: 33%;" />
+<img src="./图片/image-20231001160401926.png" alt="image-20231001160401926" style="zoom: 33%;" />
 
 **三种归一化方法：**
 
@@ -24,15 +24,15 @@
 2.  (x-ū)/(max-min)
 3.  (x-ū)/标准差
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001161234370.png" alt="image-20231001161234370" style="zoom: 33%;" />
+<img src="./图片/image-20231001161234370.png" alt="image-20231001161234370" style="zoom: 33%;" />
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001161107322.png" alt="image-20231001161107322" style="zoom:33%;" />
+<img src="./图片/image-20231001161107322.png" alt="image-20231001161107322" style="zoom:33%;" />
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001161552870.png" alt="image-20231001161552870" style="zoom:33%;" />
+<img src="./图片/image-20231001161552870.png" alt="image-20231001161552870" style="zoom:33%;" />
 
 ##### **成本函数收敛：**
 
-![image-20231001162055736](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001162055736.png)
+![image-20231001162055736](./图片/image-20231001162055736.png)
 
 左边的图横坐标是迭代次数，J的值应在每次迭代后都下降
 
@@ -40,7 +40,7 @@
 
 ##### **学习率的选择：**
 
-![image-20231001162546199](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001162546199.png)
+![image-20231001162546199](./图片/image-20231001162546199.png)
 
 过大的学习率：可能会导致成本函数上升
 
@@ -55,7 +55,7 @@ J上升原因：
 
 
 
-![image-20231001162913737](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001162913737.png)
+![image-20231001162913737](./图片/image-20231001162913737.png)
 
 从小到大测试α，每次扩大三倍。
 
@@ -69,10 +69,10 @@ J上升原因：
 
 例如：房屋面积的特征：土地的宽度、深度和土地面积的大小
 
-![image-20231001163818886](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001163818886.png)
+![image-20231001163818886](./图片/image-20231001163818886.png)
 
 ##### **多项式回归：**
 
-![image-20231001164142618](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20231001164142618.png)
+![image-20231001164142618](./图片/image-20231001164142618.png)
 
 按照数据点的分布，选择可能的拟合曲线
