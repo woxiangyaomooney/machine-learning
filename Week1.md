@@ -46,11 +46,11 @@
 
   Linear Regression Model, means fitting a straight line to your data.
 
-![image-20230924104328657](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924104328657.png)
+![image-20230924104328657](./图片/image-20230924104328657.png)
 
-![image-20230924103802650](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924103802650.png)
+![image-20230924103802650](./图片/image-20230924103802650.png)
 
-![image-20230924104625004](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924104625004.png)
+![image-20230924104625004](./图片/image-20230924104625004.png)
 
 
 
@@ -58,41 +58,41 @@
 
   Cost function, measures the difference between the model's predictions, and the actual true values for y.
 
-  ![image-20230924105300878](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924105300878.png)
+  ![image-20230924105300878](./图片/image-20230924105300878.png)
 
   
 
   - ##### cost function intuition:
 
-  <img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924105837890.png" alt="image-20230924105837890" style="zoom:50%;" />
+  <img src="./图片/image-20230924105837890.png" alt="image-20230924105837890" style="zoom:50%;" />
 
   
 
   - ##### Visualizing the cost function
 
-  <img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924110213040.png" alt="image-20230924110213040" style="zoom:50%;" />
+  <img src="./图片/image-20230924110213040.png" alt="image-20230924110213040" style="zoom:50%;" />
 
-  <img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924110345160.png" alt="image-20230924110345160" style="zoom:50%;" />
+  <img src="./图片/image-20230924110345160.png" alt="image-20230924110345160" style="zoom:50%;" />
 
-  <img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924110456307.png" alt="image-20230924110456307" style="zoom:50%;" />
+  <img src="./图片/image-20230924110456307.png" alt="image-20230924110456307" style="zoom:50%;" />
 
 ### 梯度下降
 
 Gradient descent
 
-![image-20230924110743153](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924110743153.png)
+![image-20230924110743153](./图片/image-20230924110743153.png)
 
 α 学习速率，值大则跨度大，值小则跨度小，过于大的时候有可能错过最小点，从而代价函数的值反向上升
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924111329135.png" alt="image-20230924111329135" style="zoom:50%;" />
+<img src="./图片/image-20230924111329135.png" alt="image-20230924111329135" style="zoom:50%;" />
 
 梯度下降：同时更新w和b（通过偏导来更新），直到达到代价函数的局部最小值
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924111126172.png" alt="image-20230924111126172" style="zoom:50%;" />
+<img src="./图片/image-20230924111126172.png" alt="image-20230924111126172" style="zoom:50%;" />
 
 求偏导得出以下式子：
 
-<img src="C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924111523843.png" alt="image-20230924111523843" style="zoom:50%;" />
+<img src="./图片/image-20230924111523843.png" alt="image-20230924111523843" style="zoom:50%;" />
 
 在平方误差函数中，局部最小值就是全局最小值
 
@@ -102,7 +102,7 @@ Gradient descent
 
   即在梯度下降的每一步中，我们都在研究所有的训练示例， 而不仅仅是训练数据的一个子集
 
-  ![image-20230924111935347](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924111935347.png)
+  ![image-20230924111935347](./图片/image-20230924111935347.png)
 
 
 
@@ -110,28 +110,28 @@ Gradient descent
 
 Multiple linear regression
 
-![image-20230924112525344](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924112525344.png)
+![image-20230924112525344](./图片/image-20230924112525344.png)
 
 向量点乘
 
-![image-20230924112725122](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924112725122.png)
+![image-20230924112725122](./图片/image-20230924112725122.png)
 
-![image-20230924112837361](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924112837361.png)
+![image-20230924112837361](./图片/image-20230924112837361.png)
 
 vectorization矢量化计算是指对应数据相乘然后总的相加（和矩阵乘法不同），使用的是python的Numpy库
 
 矢量化计算：
 
-![image-20230924113138059](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924113138059.png)
+![image-20230924113138059](./图片/image-20230924113138059.png)
 
 
 
 多元回归的梯度下降：
 
-![image-20230924113651983](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924113651983.png)
+![image-20230924113651983](./图片/image-20230924113651983.png)
 
 正态方程法：
 
 无需迭代，仅需了解，一些机器学习库可能会在后端使用。
 
-![image-20230924113455449](C:\Users\五三七\AppData\Roaming\Typora\typora-user-images\image-20230924113455449.png)
+![image-20230924113455449](./图片/image-20230924113455449.png)
